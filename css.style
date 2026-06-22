@@ -204,4 +204,52 @@ footer {
     .about h2 {
         font-size: 30px;
     }
+
+    .search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    width: 400px;
+    padding: 14px;
+    border: none;
+    border-radius: 12px 0 0 12px;
+}
+
+.search-box button {
+    padding: 14px 20px;
+    border: none;
+    background: gold;
+    border-radius: 0 12px 12px 0;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.filters button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    cursor: pointer;
+}
+
+.wishlist {
+    float: right;
+    color: gold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin: 12px 0;
+}
 }
